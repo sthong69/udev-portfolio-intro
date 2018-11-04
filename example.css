@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+header {
+    background-image: url("https://external-preview.redd.it/mNvcfnwvPPPopaGh_FXD03xGfT3xN3yzsONrBK43KDc.jpg?auto=webp&s=0ff98ccc95903fe5c1b8549392a09593c70d9711");
+    background-size: cover;
+    height: 40vw;
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36pt;
+    color: white;
+}
+
+main {
+    padding: 10px 100px 10px 100px;
+
+}
+
+#profile-picture {
+    border-radius: 50%;
+    width: 150px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+a {
+    color: white;
+    font-weight: bold;
+}
