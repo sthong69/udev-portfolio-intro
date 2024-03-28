@@ -1,0 +1,29 @@
+.navbar {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10rem;
+  padding-right: 5rem;
+  position: relative;
+  display: flex;
+  height: 4rem;
+  justify-content: space-between;
+  box-shadow: 0 3px 10px black;
+}
+
+.navbar-links {
+  justify-content: space-evenly;
+  display: inline-flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.navbar-title {
+  font-size: x-large;
+  display: inline-flex;
+  align-items: center;
+}
+
+a.navbar-link:hover {
+  border-color: #d1d5db;
+  color: #4b5563;
+}

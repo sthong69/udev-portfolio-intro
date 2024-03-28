@@ -1,0 +1,20 @@
+.contact-form {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  gap: 2rem 2rem;
+}
+
+.contact-form-field {
+  width: 100%;
+  border-radius: 0.375rem;
+  border-width: 0; /* Corresponds to border-0 */
+  padding-left: 0.875rem; /* Corresponds to px-3.5 */
+  padding-right: 0.875rem; /* Corresponds to px-3.5 */
+  padding-top: 0.5rem; /* Corresponds to py-2 */
+  padding-bottom: 0.5rem; /* Corresponds to py-2 */
+  color: #374151; /* Corresponds to text-gray-900 */
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05); /* Corresponds to shadow-sm */
+  box-sizing: border-box;
+  outline: 2px solid transparent; /* Corresponds to focus:ring-2 */
+  outline-offset: 2px; /* Corresponds to focus:ring-inset */
+}
