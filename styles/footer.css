@@ -1,0 +1,14 @@
+.footer {
+  height: 5rem;
+  background-color: black;
+  justify-content: space-between;
+  padding-top: 1rem;
+}
+
+footer a {
+  color: white;
+}
+
+footer p {
+  color: white;
+}

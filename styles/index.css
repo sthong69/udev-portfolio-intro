@@ -2,6 +2,10 @@ body {
   font-family: Arial, sans-serif;
   text-align: center;
   margin: 0;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 header {
@@ -30,12 +34,6 @@ a {
   color: black;
   font-weight: bold;
   text-decoration: none;
-}
-
-.footer {
-  height: 8rem;
-  background-color: black;
-  justify-content: space-between;
 }
 
 h1.page-title {

@@ -5,13 +5,22 @@
     <title>Mobile App - Sylvain Thong</title>
     <link rel="stylesheet" href="./styles/index.css" />
     <link rel="stylesheet" href="./styles/navbar.css" />
+    <link rel="stylesheet" href="./styles/footer.css" />
   </head>
 
   <!--NavBar-->
   <nav class="navbar">
     <a class="navbar-title" href="./index.html">Sylvain Thong</a>
     <div class="navbar-links">
-      <a class="navbar-link dropdown" href="./about-me.html">About me</a>
+      <div class="dropdown">
+        <a class="navbar-link">About me</a>
+        <div class="dropdown-content">
+          <a href="https://www.linkedin.com/in/sylvain-thong-88982a259/"
+            >LinkedIn</a
+          >
+          <a href="https://github.com/sthong69">Github</a>
+        </div>
+      </div>
       <a class="navbar-link" href="./public/CV - Thong Sylvain.pdf">My CV</a>
       <a class="navbar-link" href="./contact.html">Contact form</a>
     </div>
@@ -38,10 +47,11 @@
         mollit anim id est laborum.
       </p>
     </main>
-
-    <!--NavBar-->
-    <footer class="footer">
-      <a class="footer-link"></a>
-    </footer>
   </body>
+
+  <!--Footer-->
+  <footer class="footer">
+    <a class="footer-link" href="./contact.html">Contact me</a>
+    <p>This portofolio was made for Lab 1 of the Mobile App course.</p>
+  </footer>
 </html>

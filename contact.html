@@ -5,38 +5,53 @@
     <link rel="stylesheet" href="./styles/index.css" />
     <link rel="stylesheet" href="./styles/navbar.css" />
     <link rel="stylesheet" href="./styles/contact-form.css" />
+    <link rel="stylesheet" href="./styles/footer.css" />
   </head>
 
   <!--NavBar-->
   <nav class="navbar">
     <a class="navbar-title" href="./index.html">Sylvain Thong</a>
     <div class="navbar-links">
-      <a class="navbar-link dropdown" href="./about-me.html">About me</a>
+      <div class="dropdown">
+        <a class="navbar-link">About me</a>
+        <div class="dropdown-content">
+          <a href="https://www.linkedin.com/in/sylvain-thong-88982a259/"
+            >LinkedIn</a
+          >
+          <a href="https://github.com/sthong69">Github</a>
+        </div>
+      </div>
       <a class="navbar-link" href="./public/CV - Thong Sylvain.pdf">My CV</a>
       <a class="navbar-link" href="./contact.html">Contact form</a>
     </div>
   </nav>
 
-  <h1 class="page-title">Contact me</h1>
+  <body>
+    <h1 class="page-title">Contact me</h1>
 
-  <form class="contact-form">
-    <label for="prenom">Prénom</label>
-    <input class="contact-form-field" type="text" id="prenom" name="prenom" />
+    <form class="contact-form">
+      <label for="prenom">First name</label>
+      <input class="contact-form-field" type="text" id="prenom" name="prenom" />
 
-    <label for="nom">Nom de famille</label>
-    <input class="contact-form-field" type="text" id="nom" name="nom" />
+      <label for="nom">Last name</label>
+      <input class="contact-form-field" type="text" id="nom" name="nom" />
 
-    <label for="email">Adresse e-mail</label>
-    <input class="contact-form-field" type="text" id="email" name="email" />
+      <label for="email">E-mail</label>
+      <input class="contact-form-field" type="text" id="email" name="email" />
 
-    <label for="subject">Message</label>
-    <textarea
-      class="contact-form-field"
-      id="message"
-      name="message"
-      placeholder="Je vous contacte au sujet de..."
-    ></textarea>
+      <label for="subject">Message</label>
+      <textarea
+        class="contact-form-field"
+        id="message"
+        name="message"
+        placeholder="Hello ! I am interested in your work..."
+      ></textarea>
+    </form>
+    <button class="contact-form-button">Send</button>
+  </body>
 
-    <button>Envoyez</button>
-  </form>
+  <!--Footer-->
+  <footer class="footer">
+    <p>This portofolio was made for Lab 1 of the Mobile App course.</p>
+  </footer>
 </html>
